@@ -11,12 +11,12 @@ import QRCodeGenerator from './component/qr-code-generator'
 function App() {
   return (
     <>
-      <Accordion />
-      <RandomColor />
-      <RatingStars noOfStars={10} />
-      <ImageSlider url="https://picsum.photos/v2/list" limit={"10"} page={"1"}/>
-      <LoadMoreData />
-      <TreeView menus={menus}/>
+      {/* <Accordion /> */}
+      {/* <RandomColor /> */}
+      {/* <RatingStars noOfStars={10} /> */}
+      {/* <ImageSlider url="https://picsum.photos/v2/list" limit={"10"} page={"1"}/> */}
+      {/* <LoadMoreData /> */}
+      {/* <TreeView menus={menus}/> */}
       <QRCodeGenerator/>
     </>
   );
